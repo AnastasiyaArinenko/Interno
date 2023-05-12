@@ -55,10 +55,6 @@
   transform: scale(0.98);
 }
 
-.button:hover{
-  box-shadow: -1px -6px 14px 5px rgba(34, 60, 80, 0.41) inset;
-}
-
 .container {
   width: 100vw;
   height: 100vw;
@@ -355,6 +351,21 @@
   padding: 21px 21px 41px 21px;
   border: 1px solid #E7E7E7;
   border-radius: 62px;
+}
+
+.images-box{
+  position: relative;
+}
+
+.images-box__name{
+  position: absolute;
+  bottom: 30px;
+  left: 24px;
+  padding: 10px;
+  border-radius: 8px 8px 8px 0px;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .interior-examples__heading{

@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/index.css">
+  <link rel="shortcut icon" href="assets/images/logo-img.svg" type="image/svg">
 </head> 
 
 <body>
@@ -48,8 +49,8 @@
           </p>
         
           <button class="main-intro-box__btn button">
-            Get started
-            <img class="button__img" src="" alt="">
+            Get started 
+              <img src="assets/images/arrow-bege.png" alt="arrow">
           </button>
         </div>
       </section>
@@ -113,7 +114,7 @@
             </div>
 
             <button class="estimate__btn button">Get Free Estimate
-              <img clas="button__img" src="" alt="">
+              <img clas="button__img" src="assets/images/arrow-bege.png" alt="arrow">
             </button>
           </div>
 
@@ -191,7 +192,7 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section id="ourProjects" class="projects">
         <div class="projects-header box">
           <h2 class="projects-header__heading heading">Recent Projects</h2>
 
@@ -306,7 +307,7 @@
         </div>
       </section>
 
-      <section class="blogs">
+      <section id="recentBlogs" class="blogs">
         <h2 class="blogs__heading heading">Recent Blogs</h2>
 
         <p class="blogs__txt">Get updates about our latest trends and techniques used in 
@@ -316,8 +317,12 @@
 
         <div class="examples-box box">
           <div class="interior-examples">
-            <img class="interior-examples__img" src="assets/images/kitchen.png" alt="kitchen">
-
+            <div class="images-box">
+              <img class="images-box__img" src="assets/images/kitchen.png" alt="kitchen">
+            
+              <p class="images-box__name">Kitchen Design</p>
+            </div>
+            
             <h3 class="interior-examples__heading h3">Residential Interior Designer In New York, USA</h3>
 
             <div class="interior-examples__footer">
@@ -332,7 +337,11 @@
           </div>
 
           <div class="interior-examples">
-            <img class="interior-examples__img" src="assets/images/living-room.png" alt="linig room">
+            <div class="images-box">
+              <img class="images-box__img" src="assets/images/living-room.png" alt="livig room">
+            
+              <p class="images-box__name">Living Room</p>
+            </div>
 
             <h3 class="interior-examples__heading h3">How To Choose The Best Wall Art & Decor House?</h3>
 
@@ -348,7 +357,11 @@
           </div>
 
           <div class="interior-examples">
-            <img class="interior-examples__img" src="assets/images/kitchen2.png" alt="kitchen">
+            <div class="images-box">
+              <img class="images-box__img" src="assets/images/kitchen2.png" alt="kitchen">
+            
+              <p class="images-box__name">Minimalist Interior</p>
+            </div>
 
             <h3 class="interior-examples__heading h3">Tips To Increase The Interior Value Of Your House</h3>
 
@@ -364,7 +377,11 @@
           </div>
 
           <div class="interior-examples">
-            <img class="interior-examples__img" src="assets/images/dining-rom.png" alt="dining room">
+            <div class="images-box">
+              <img class="images-box__img" src="assets/images/dining-rom.png" alt="dining room">
+            
+              <p class="images-box__name">Kitchen Design</p>
+            </div>
 
             <h3 class="interior-examples__heading h3">Best Solution For Any Office & Business Interior</h3>
 
@@ -380,7 +397,11 @@
           </div>
 
           <div class="interior-examples">
-            <img class="interior-examples__img" src="assets/images/kitchen3.png" alt="kitchen">
+            <div class="images-box">
+              <img class="images-box__img" src="assets/images/kitchen3.png" alt="kitchen">
+            
+              <p class="images-box__name">Living Room</p>
+            </div>
 
             <h3 class="interior-examples__heading h3">Get Solution For Building Construction Work</h3>
 
@@ -396,7 +417,11 @@
           </div>
 
           <div class="interior-examples">
-            <img class="interior-examples__img" src="assets/images/kitchen4.png" alt="kitchen">
+            <div class="images-box">
+              <img class="images-box__img" src="assets/images/kitchen4.png" alt="kitchen">
+            
+              <p class="images-box__name">Minimalist Interior</p>
+            </div>
 
             <h3 class="interior-examples__heading h3">Attain The Best Finish For The Kitchen Cabinets</h3>
 
@@ -418,7 +443,7 @@
           <p class="join-us-box__txt">Contact Us & Get a Free Consultation</p>
 
           <button class="join-us-box__btn button">Connect With us
-            <img src="assets/images/arrow-right.png" alt="arrow">
+            <img src="assets/images/arrow-black.png" alt="arrow">
           </button>
         </div>
       </section>
@@ -472,15 +497,19 @@
           <h3 class="footer-box__item__heading h3">Explore</h3>
 
           <ul class="footer-box__item explore__list">
-            <li class="explore__list__item"><a href="" class="explore__list__link"></a>About Us</li>
-            <li class="explore__list__item"><a href="" class="explore__list__link"></a>Recent Blog</li>
-            <li class="explore__list__item"><a href="" class="explore__list__link"></a>Pricing Plan</li>
-            <li class="explore__list__item"><a href="" class="explore__list__link"></a>Our Projects</li>
-            <li class="explore__list__item"><a href="" class="explore__list__link"></a>Contact Us</li>
+            <li class="explore__list__item"><a href="#home" class="explore__list__link">Home</a></li>
+
+            <li class="explore__list__item"><a href="#aboutUs" class="explore__list__link">About Us</a></li>
+            
+            <li class="explore__list__item"><a href="#recentBlogs" class="explore__list__link">Recent Blog</a></li>
+            
+            <li class="explore__list__item"><a href="#ourProjects" class="explore__list__link">Our Projects</a></li>
+            
+            <li class="explore__list__item"><a href="#contacts" class="explore__list__link">Contact Us</a></li>
           </ul>
         </div>
 
-        <div class="footer-box__item requisites">
+        <div id="contacts" class="footer-box__item requisites">
           <h3 class="footer-box__item__heading h3">Contacts</h3>
 
           <p class="footer-box__item__adress">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p>

@@ -20,20 +20,24 @@
           <img class="logo__img" src="assets/images/logo/logo.svg" alt="logo">
         </div>
 
-        <div class="header-container">
+        <div class="header-nav">
           <nav class="nav">
             <ul class="nav__list">
-              <li class="nav__list__item"><a href="#home" class="nav__list__link home">Home</a></li>
+              <li class="nav__list__item"><a href="#home" class="nav__list__link link home">Home</a></li>
 
-              <li class="nav__list__item"><a href="#aboutUs" class="nav__list__link">About us</a></li>
+              <li class="nav__list__item"><a href="#aboutUs" class="nav__list__link link">About us</a></li>
 
-              <li class="nav__list__item"><a href="#services" class="nav__list__link">Services</a></li>
+              <li class="nav__list__item"><a href="#services" class="nav__list__link link">Services</a></li>
 
-              <li class="nav__list__item"><a href="#pages" class="nav__list__link">Pages</a></li>
+              <li class="nav__list__item"><a href="#pages" class="nav__list__link link">Pages</a></li>
 
-              <li class="nav__list__item"><a href="#contacts" class="nav__list__link">Contact us</a></li>
+              <li class="nav__list__item"><a href="#contacts" class="nav__list__link link">Contact us</a></li>
             </ul>
           </nav>
+        </div>
+
+        <div class="header-menu">
+          <p class="header-menu__txt">Menu</p>
         </div>
       </div>
     </header>
@@ -43,8 +47,7 @@
         <div class="main-intro-box box">
           <h1 class="main-intro-box__heading">Let's Create Your Dream Interior</h1>
 
-          <p class="main-intro-box__txt">The world needs innovators and problem solvers who turn challenges into greater opportunities.
-          </p>
+          <p class="main-intro-box__txt">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
         
           <button class="main-intro-box__btn button">
             Get started 
@@ -54,34 +57,40 @@
       </section>
 
       <section id="aboutUs" class="components">
-        <div class="components-container box">  
-          <div class="components-box">
-            <h3 class="components-box__header h3">Interior Design</h3>
+        <div class="components-box box">  
+          <div class="components-container">
+            <h3 class="components-container__header h3">Interior Design</h3>
 
-            <p class="components-box__txt">Enhancing the interior to achieve a healthier environment for the people using right space.</p>
+            <p class="components-container__txt">Enhancing the interior to achieve a healthier environment for the people using right space.</p>
             
-            <button class="components-box__btn">View More
-              <img src="assets/images/arrow-view-more.png" alt="arrow">
+            <button class="components-container__btn button">
+              View More
+
+              <img class="components-container__btn__img" src="assets/images/arrow-view-more.png" alt="arrow">
             </button>
           </div>
 
-          <div class="components-box">
-            <h3 class="components__header h3">Furniture</h3>
+          <div class="components-container">
+            <h3 class="components-container__header h3">Furniture</h3>
 
-            <p class="components-box__txt">Movable articles that are used to make a room or building suitable for living or working.</p>
+            <p class="components-container__txt">Movable articles that are used to make a room or building suitable for living or working.</p>
             
-            <button class="components-box__btn">View More
-              <img src="assets/images/arrow-view-more.png" alt="arrow">
+            <button class="components-container__btn button">
+              View More
+
+              <img class="components-container__btn__img" src="assets/images/arrow-view-more.png" alt="arrow">
             </button>
           </div>
 
-          <div class="components-box">
-            <h3 class="components__header h3">Flooring</h3>
+          <div class="components-container">
+            <h3 class="components-container__header h3">Flooring</h3>
 
-            <p class="components-box__txt">Thin object any finished material applied over a floor structure to provide a walking surface.</p>
+            <p class="components-container__txt">Thin object any finished material applied over a floor structure to provide a walking surface.</p>
             
-            <button class="components-box__btn">View More
-              <img src="assets/images/arrow-view-more.png" alt="arrow">
+            <button class="components-container__btn button">
+              View More
+
+              <img class="components-container__btn__img" src="assets/images/arrow-view-more.png" alt="arrow">
             </button>
           </div>
         </div>
@@ -92,17 +101,15 @@
           <div class="description">
             <h2 class="description__heading heading">We Tackle The Most Challenging Designs</h2>
 
-            <p class="description__txt">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have 
-              <br>
-              an insatiable curiosity about transformative trends challenging the status.
+            <p class="description__txt">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have an insatiable curiosity about transformative trends challenging the status.
             </p>
           
             <div class="phone">
-              <button class="phone__btn">
+              <div class="phone__btn">
                 <a href="tel:012345678">
                   <img src="assets/images/icons/phone.svg" alt="phone icon">
                 </a>
-              </button>
+              </div>
 
               <div class="phone-description">
                 <a class="phone-description__number" href="tel:012345678">012345678</a>
@@ -112,7 +119,7 @@
             </div>
 
             <button class="estimate__btn button">Get Free Estimate
-              <img clas="button__img" src="assets/images/arrow-bege.png" alt="arrow">
+              <img class="button__img" src="assets/images/arrow-bege.png" alt="arrow">
             </button>
           </div>
 
@@ -124,7 +131,7 @@
         <div class="feedbacks-box box">
           <h2 class="feedbacks-box__heading heading">What the People Thinks About Interno</h2>
 
-          <div class="feedbacks-box-container">
+          <div class="feedbacks-box-container box">
             <div class="feedbacks-box-container__item">
               <div class="author">
                 <div class="author-box">
@@ -194,9 +201,7 @@
         <div class="projects-header box">
           <h2 class="projects-header__heading heading">Recent Projects</h2>
 
-          <p class="projects-header__txt">With tools to make every part of your process more human and a support team 
-            <br>
-            excited to help you, getting started with us never been easier.
+          <p class="projects-header__txt">With tools to make every part of your process more human and a support team excited to help you, getting started with us never been easier.
           </p>
         </div>
           
@@ -212,11 +217,9 @@
                   <p class="portfolio-container-item__footer__description__txt">Art Modern</p>
                 </div>
 
-                <a href="#">
-                  <button class="portfolio-container-item__footer__btn">
-                      <img src="assets/images/arrow-right.png" alt="arrow">
-                  </button>
-                </a>
+                <button class="portfolio-container-item__footer__btn">
+                    <img src="assets/images/arrow-right.png" alt="arrow">
+                </button>
               </div>
             </div>
 
@@ -230,11 +233,9 @@
                   <p class="portfolio-container-item__footer__description__txt">Minimalist</p>
                 </div>
 
-                <a href="#">
-                  <button class="portfolio-container-item__footer__btn">
-                      <img src="assets/images/arrow-right.png" alt="arrow">
-                  </button>
-                </a>
+                <button class="portfolio-container-item__footer__btn">
+                    <img src="assets/images/arrow-right.png" alt="arrow">
+                </button>
               </div>
             </div>
 
@@ -248,11 +249,9 @@
                   <p class="portfolio-container-item__footer__description__txt">Modern</p>
                 </div>
 
-                <a href="#">
-                  <button class="portfolio-container-item__footer__btn">
-                      <img src="assets/images/arrow-right.png" alt="arrow">
-                  </button>
-                </a>
+                <button class="portfolio-container-item__footer__btn">
+                    <img src="assets/images/arrow-right.png" alt="arrow">
+                </button>
               </div>
             </div>
 
@@ -266,11 +265,9 @@
                   <p class="portfolio-container-item__footer__description__txt">Light Ambience Sepia Design</p>
                 </div>
 
-                <a href="#">
-                  <button class="portfolio-container-item__footer__btn">
-                      <img src="assets/images/arrow-right.png" alt="arrow">
-                  </button>
-                </a>
+                <button class="portfolio-container-item__footer__btn">
+                  <img src="assets/images/arrow-right.png" alt="arrow">
+                </button>
               </div>
             </div>
           </div>
@@ -326,12 +323,10 @@
             <div class="interior-examples__footer">
               <p class="interior-examples__footer__txt">November 23, 2021</p>
             
-              <a href="#">
-                <button class="interior-examples__footer__btn">
-                  <img src="assets/images/arrow-right.png" alt="arrow">
-                </button>
-              </a>
-              </div>
+              <button class="interior-examples__footer__btn">
+                <img src="assets/images/arrow-right.png" alt="arrow">
+              </button>
+            </div>
           </div>
 
           <div class="interior-examples">
@@ -346,12 +341,10 @@
             <div class="interior-examples__footer">
               <p class="interior-examples__footer__txt">November 23, 2021</p>
             
-              <a href="#">
-                <button class="interior-examples__footer__btn">
-                  <img src="assets/images/arrow-right.png" alt="arrow">
-                </button>
-              </a>
-              </div>
+              <button class="interior-examples__footer__btn">
+                <img src="assets/images/arrow-right.png" alt="arrow">
+              </button>
+            </div>
           </div>
 
           <div class="interior-examples">
@@ -366,12 +359,10 @@
             <div class="interior-examples__footer">
               <p class="interior-examples__footer__txt">November 23, 2021</p>
             
-              <a href="#">
-                <button class="interior-examples__footer__btn">
-                  <img src="assets/images/arrow-right.png" alt="arrow"">
-                </button>
-              </a>
-              </div>
+              <button class="interior-examples__footer__btn">
+                <img src="assets/images/arrow-right.png" alt="arrow">
+              </button>
+            </div>
           </div>
 
           <div class="interior-examples">
@@ -386,12 +377,10 @@
             <div class="interior-examples__footer">
               <p class="interior-examples__footer__txt">November 23, 2021</p>
             
-              <a href="#">
-                <button class="interior-examples__footer__btn">
-                  <img src="assets/images/arrow-right.png" alt="arrow">
-                </button>
-              </a>
-              </div>
+              <button class="interior-examples__footer__btn">
+                <img src="assets/images/arrow-right.png" alt="arrow">
+              </button>
+            </div>
           </div>
 
           <div class="interior-examples">
@@ -406,12 +395,10 @@
             <div class="interior-examples__footer">
               <p class="interior-examples__footer__txt">November 23, 2021</p>
             
-              <a href="#">
-                <button class="interior-examples__footer__btn">
-                  <img src="assets/images/arrow-right.png" alt="arrow">
-                </button>
-              </a>
-              </div>
+              <button class="interior-examples__footer__btn">
+                <img src="assets/images/arrow-right.png" alt="arrow">
+              </button>
+            </div>
           </div>
 
           <div class="interior-examples">
@@ -441,7 +428,7 @@
           <p class="join-us-box__txt">Contact Us & Get a Free Consultation</p>
 
           <button class="join-us-box__btn button">Connect With us
-            <img src="assets/images/arrow-black.png" alt="arrow">
+            <img class="button__img" src="assets/images/arrow-black.png" alt="arrow">
           </button>
         </div>
       </section>
@@ -451,7 +438,7 @@
       <div class="footer-box box">
         <div class="footer-box__item">
           <div class="media-box">
-            <img src="assets/images/logo.svg" alt="logo">
+            <img  class="media-box__logo" src="assets/images/logo.svg" alt="logo">
 
             <p class="media-box__txt">We are the leading architect and interior design firm in the world.</p>
 
@@ -479,15 +466,15 @@
           <h3 class="footer-box__item__heading h3">Pages</h3>
 
             <ul class="footer-box__item pages__list">
-              <li class="pages__list__item"><a href="#" class="pages__list__link">Style Guide</a></li>
+              <li class="pages__list__item"><a href="#" class="pages__list__link link">Style Guide</a></li>
 
-              <li class="pages__list__item"><a href="#" class="pages__list__link">Protected</a></li>
+              <li class="pages__list__item"><a href="#" class="pages__list__link link">Protected</a></li>
 
-              <li class="pages__list__item"><a href="#" class="pages__list__link">Licenses</a></li>
+              <li class="pages__list__item"><a href="#" class="pages__list__link link">Licenses</a></li>
 
-              <li class="pages__list__item"><a href="#" class="pages__list__link">Changelog</a></li>
+              <li class="pages__list__item"><a href="#" class="pages__list__link link">Changelog</a></li>
 
-              <li class="pages__list__item"><a href="#" class="pages__list__link">404</a></li>
+              <li class="pages__list__item"><a href="#" class="pages__list__link link">404</a></li>
             </ul>
         </div>
 
@@ -495,15 +482,15 @@
           <h3 class="footer-box__item__heading h3">Explore</h3>
 
           <ul class="footer-box__item explore__list">
-            <li class="explore__list__item"><a href="#home" class="explore__list__link">Home</a></li>
+            <li class="explore__list__item"><a href="#home" class="explore__list__link link">Home</a></li>
 
-            <li class="explore__list__item"><a href="#aboutUs" class="explore__list__link">About Us</a></li>
+            <li class="explore__list__item"><a href="#aboutUs" class="explore__list__link link">About Us</a></li>
             
-            <li class="explore__list__item"><a href="#recentBlogs" class="explore__list__link">Recent Blog</a></li>
+            <li class="explore__list__item"><a href="#recentBlogs" class="explore__list__link link">Recent Blog</a></li>
             
-            <li class="explore__list__item"><a href="#ourProjects" class="explore__list__link">Our Projects</a></li>
+            <li class="explore__list__item"><a href="#ourProjects" class="explore__list__link link">Our Projects</a></li>
             
-            <li class="explore__list__item"><a href="#contacts" class="explore__list__link">Contact Us</a></li>
+            <li class="explore__list__item"><a href="#contacts" class="explore__list__link link">Contact Us</a></li>
           </ul>
         </div>
 
@@ -512,9 +499,9 @@
 
           <p class="footer-box__item__adress">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p>
 
-          <a class="footer-box__item__mail" href="mailto:contact@interno.com">contact@interno.com</a>
+          <a class="footer-box__item__mail link" href="mailto:contact@interno.com">contact@interno.com</a>
 
-          <a class="footer-box__item__phone"href="tel:(123)4567890">(123) 456-7890</a>
+          <a class="footer-box__item__phone link" href="tel:(123)4567890">(123) 456-7890</a>
         </div>
       </div>
 

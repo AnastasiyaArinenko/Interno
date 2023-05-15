@@ -508,13 +508,12 @@
   color: #CDA274;
 }
 
-@media screen and (max-width:1150px){
+@media screen and (max-width: 1150px){
   .examples-box {
     display: flex;
     gap: 20px;
   }
 }
-
 
 @media screen and (max-width: 480px){
   .box{

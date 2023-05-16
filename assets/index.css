@@ -515,7 +515,7 @@
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px) and (max-width:768px){
   .box{
     max-width: 400px;
   }
